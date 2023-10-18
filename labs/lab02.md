@@ -46,6 +46,7 @@ References:
     needs: [ring04]
     steps:
       - run: echo "This job will be run after the ring04 job."
+
 ```
 3. Commit the changes into the `main` branch
 4. Go to `Actions` and manually trigger the workflow by clicking on `Run Workflow` button
